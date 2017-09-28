@@ -10,6 +10,8 @@ libraryDependencies ++= Seq("com.typesafe.akka" %% "akka-http-core" % "10.0.0",
   "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.0",
   "com.typesafe.akka" %% "akka-http-jackson" % "10.0.0",
   "com.typesafe.akka" %% "akka-http-xml" % "10.0.0",
-  "commons-io" % "commons-io" % "2.5"
+  "commons-io" % "commons-io" % "2.5",
+  "org.twitter4j" % "twitter4j-core" % "4.0.2",
+  "org.twitter4j" % "twitter4j-stream" % "4.0.2"
 
 )
